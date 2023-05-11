@@ -114,16 +114,17 @@ ul li:hover a {
 	margin-bottom: 5px;
 }
 .gallery {
-	clear: both;
-	display: inline-block;
-	width: 100%;
-	background-color: #FFFFFF;
-	/* [disabled]min-width: 400px;
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    background-color: #FFFFFF;
+    /* [disabled]min-width: 400px;
 */
-	padding-bottom: 35px;
-	padding-top: 0px;
-	margin-top: -5px;
-	margin-bottom: 0px;
+    padding-bottom: 35px;
+    padding-top: 0px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    text-align: center;
 }
 .thumbnail {
 	width: 25%;
@@ -476,4 +477,10 @@ nav ul li {
 	margin-top: 0px;
 	padding-top: 0px;
 }
+}
+.hi {
+    text-align: center;
+    width: 100%;
+}
+.container .gallery {
 }
